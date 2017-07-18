@@ -13,7 +13,7 @@ public class AppSeizaUranai_EF {
 		rankArray = new ArrayList<Integer>();
 		sc = new Scanner(System.in);
 
-		for(int i = 0;i < 8;i++){
+		for(int i = 0;i < 9;i++){
 			int num = ra.nextInt(12) + 1;
 			while(rankArray.contains(num)){
 				num = ra.nextInt(12) + 1;
@@ -33,6 +33,7 @@ public class AppSeizaUranai_EF {
 		virgo(rankArray.get(5));
 		libra(rankArray.get(6));
 		scorpio(rankArray.get(7));
+		sagittarius(rankArray.get(8));
 
 		System.out.println("～～～～～～良い一日を！～～～～～～");
 
@@ -61,5 +62,8 @@ public class AppSeizaUranai_EF {
 	}
 	public static void scorpio(int rank){
 		//伊藤海星さん
+	}
+	public static void sagittarius(int rank){
+		//下平啓太さん
 	}
 }
