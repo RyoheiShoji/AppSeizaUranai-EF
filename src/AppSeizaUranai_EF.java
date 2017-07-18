@@ -69,6 +69,46 @@ public class AppSeizaUranai_EF {
 	}
 	public static void virgo(int rank){
 		//上女鹿 歩さん
+		
+		System.out.println("おとめ座の貴方は第 " + rank + " 位!!!";
+		switch(rank) {
+			case 1:
+				System.out.println("マンションを一棟買っちゃおう");
+				break;
+			case 2:
+				System.out.println("目標に少しだけ近づくかも...?");
+				break;
+			case 3:
+				System.out.println("５０円が道端に落ちてるかも！交番へ");
+				break;
+			case 4:
+				System.out.println("全身黄色コーデで金運アップ");
+				break;
+			case 5:
+				System.out.println("半日ラーメンを食べて歩こう");
+				break;
+			case 6:
+				System.out.println("岡山県産白桃を食べると運気アップ...?");
+				break;
+			case 7:
+				System.out.println("新しいことに挑戦してみよう");
+				break;
+			case 8:
+				System.out.println("今日はアツゥイから水分補給を忘れずに");
+				break;
+			case 9:
+				System.out.println("好きなことで食べていこう！多分うまくいくかも...");
+				break;
+			case 10:
+				System.out.println("今日は早めに寝よう");
+				break;
+			case 11:
+				System.out.println("今日明日は学校を休んだほうがいいかも");
+				break;
+			case 12:
+				System.out.println("どうあがいても絶望");
+				break;
+		}
 	}
 	public static void libra(int rank){
 		//伊勢勇人さん
