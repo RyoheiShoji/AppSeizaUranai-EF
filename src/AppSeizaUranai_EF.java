@@ -23,7 +23,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void main(String[] args){
 
-		System.out.println("ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ìè‚¢ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`");
+		System.out.println("``````¡“ú‚Ìè‚¢``````");
 
 		aries(rankArray.get(0));
 		taurus(rankArray.get(1));
@@ -34,81 +34,82 @@ public class AppSeizaUranai_EF {
 		libra(rankArray.get(6));
 		scorpio(rankArray.get(7));
 
-		System.out.println("ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`ï¿½`");
+		System.out.println("``````—Ç‚¢ˆê“ú‚ğ!``````");
 
 
 	}
 	public static void aries(int rank){
-		//ï¿½ï¿½ï¿½R ï¿½ï¿½ç‚³ï¿½ï¿½
+		//”©R ‘ñ–ç‚³‚ñ
 	}
 	public static void taurus(int rank){
+		//‘åŒË —T‹M‚³‚ñ
 		switch(rank){
 			case 1:
-				System.out.println("é †ä½ï¼š1ä½");
-				System.out.println("äººç”Ÿã«å½±éŸ¿ã‚’åŠã¼ã™äººã¨ã®å‡ºä¼šã„ãŒ");
+				System.out.println("‡ˆÊF1ˆÊ");
+				System.out.println("l¶‚É‰e‹¿‚ğ‹y‚Ú‚·l‚Æ‚Ìo‰ï‚¢‚ª");
 				break;
 			case 2:
-				System.out.println("é †ä½ï¼š2ä½");
-				System.out.println("å¹¸é‹ã®å¥³ç¥ãŒå¾®ç¬‘ã‚€ã™ã¦ããªä¸€æ—¥");
+				System.out.println("‡ˆÊF2ˆÊ");
+				System.out.println("K‰^‚Ì—_‚ª”÷Î‚Ş‚·‚Ä‚«‚Èˆê“ú");
 				break;
 			case 3:
-				System.out.println("é †ä½ï¼š3ä½");
-				System.out.println("ã‚ªãƒ¼ãƒ—ãƒ³ãªæ…‹åº¦ã§éã”ã™ã®ãŒå¤§äº‹");
+				System.out.println("‡ˆÊF3ˆÊ");
+				System.out.println("ƒI[ƒvƒ“‚È‘Ô“x‚Å‰ß‚²‚·‚Ì‚ª‘å–");
 				break;
 			case 4:
-				System.out.println("é †ä½ï¼š4ä½");
-				System.out.println("æš®ã‚‰ã—ã®ä¸­ã«æ–°ãŸãªã‚‚ã®ã‚’å–ã‚Šå…¥ã‚Œã‚‹ã¨å‰");
+				System.out.println("‡ˆÊF4ˆÊ");
+				System.out.println("•é‚ç‚µ‚Ì’†‚ÉV‚½‚È‚à‚Ì‚ğæ‚è“ü‚ê‚é‚Æ‹g");
 				break;
 			case 5:
-				System.out.println("é †ä½ï¼š5ä½");
-				System.out.println("èƒ¸ãŒã¨ãã‚ãã‚·ãƒ¼ãƒ³ã«é­é‡ã™ã‚‹æ—¥");
+				System.out.println("‡ˆÊF5ˆÊ");
+				System.out.println("‹¹‚ª‚Æ‚«‚ß‚­ƒV[ƒ“‚É‘˜‹ö‚·‚é“ú");
 				break;
 			case 6:
-				System.out.println("é †ä½ï¼š6ä½");
-				System.out.println("ã‚¤ãƒ¡ãƒ¼ã‚¸ãƒã‚§ãƒ³ã‚¸ã«é©ã—ã¦ã„ã‚‹æ—¥");
+				System.out.println("‡ˆÊF6ˆÊ");
+				System.out.println("ƒCƒ[ƒWƒ`ƒFƒ“ƒW‚É“K‚µ‚Ä‚¢‚é“ú");
 				break;
 			case 7:
-				System.out.println("é †ä½ï¼š7ä½");
-				System.out.println("èƒ¸ãŒã¨ãã‚ãã‚ˆã†ãªã‚‚ã®ã‚’è¦‹ã¤ã‘ã‚‰ã‚Œãã†");
+				System.out.println("‡ˆÊF7ˆÊ");
+				System.out.println("‹¹‚ª‚Æ‚«‚ß‚­‚æ‚¤‚È‚à‚Ì‚ğŒ©‚Â‚¯‚ç‚ê‚»‚¤");
 				break;
 			case 8:
-				System.out.println("é †ä½ï¼š8ä½");
-				System.out.println("åˆºæ¿€ã‚’æ±‚ã‚ã¦å†’é™ºã‚’ã—ãŸããªã‚Šãã†");
+				System.out.println("‡ˆÊF8ˆÊ");
+				System.out.println("hŒƒ‚ğ‹‚ß‚Ä–`Œ¯‚ğ‚µ‚½‚­‚È‚è‚»‚¤");
 				break;
 			case 9:
-				System.out.println("é †ä½ï¼š9ä½");
-				System.out.println("åˆºæ¿€ã‚„å¤‰åŒ–ã‚’æ±‚ã‚ã‚‹æ—¥");
+				System.out.println("‡ˆÊF9ˆÊ");
+				System.out.println("hŒƒ‚â•Ï‰»‚ğ‹‚ß‚é“ú");
 				break;
 			case 10:
-				System.out.println("é †ä½ï¼š10ä½");
-				System.out.println("ç„¡ç†ãªç´„æŸã‚’ã—ãªã„ã‚ˆã†ã«æ³¨æ„");
+				System.out.println("‡ˆÊF10ˆÊ");
+				System.out.println("–³—‚È–ñ‘©‚ğ‚µ‚È‚¢‚æ‚¤‚É’ˆÓ");
 				break;
 			case 11:
-				System.out.println("é †ä½ï¼š11ä½");
-				System.out.println("æ¥½ã—ã¿ã‚’è¦‹ã¤ã‘ã¦ä¸Šæ‰‹ã«æ°—åˆ†è»¢æ›ã‚’");
+				System.out.println("‡ˆÊF11ˆÊ");
+				System.out.println("Šy‚µ‚İ‚ğŒ©‚Â‚¯‚Äãè‚É‹C•ª“]Š·‚ğ");
 				break;
 			case 12:
-				System.out.println("é †ä½ï¼š12ä½");
-				System.out.println("ãƒ—ãƒ©ã‚¹æ€è€ƒã§ã„ãã¾ã—ã‚‡ã†");
+				System.out.println("‡ˆÊF12ˆÊ");
+				System.out.println("ƒvƒ‰ƒXvl‚Å‚¢‚«‚Ü‚µ‚å‚¤");
 				break;
 		}
 	}
 	public static void gemini(int rank){
-		//ï¿½Ô‰ï¿½ ï¿½Ä‚ï¿½ï¿½ï¿½
+		//”Ô‰® ãÄ‚³‚ñ
 	}
 	public static void cancer(int rank){
-		//ï¿½ï¿½ï¿½i
+		//¯i
 	}
 	public static void leo(int rank){
-		//ï¿½ï¿½R ï¿½Ã–í‚³ï¿½ï¿½
+		//ìR Ã–í‚³‚ñ
 	}
 	public static void virgo(int rank){
-		//ï¿½ã—ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		//ã—­ •à‚³‚ñ
 	}
 	public static void libra(int rank){
-		//ï¿½Éï¿½ï¿½Eï¿½lï¿½ï¿½ï¿½ï¿½
+		//ˆÉ¨—El‚³‚ñ
 	}
 	public static void scorpio(int rank){
-		//ï¿½É“ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		//ˆÉ“¡ŠC¯‚³‚ñ
 	}
 }
