@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AppSeizaUranai_EF {
 	Random ra;
-	static ArrayList<Integer> rankArray;
+	ArrayList<Integer> rankArray;
 	Scanner sc;
 
 	public AppSeizaUranai_EF(){
@@ -22,18 +22,18 @@ public class AppSeizaUranai_EF {
 		}
 	}
 	public static void main(String[] args){
-
+		AppSeizaUranai_EF ef = new AppSeizaUranai_EF();
 		System.out.println("～～～～～～今日の占い～～～～～～");
 
-		aries(rankArray.get(0));
-		taurus(rankArray.get(1));
-		gemini(rankArray.get(2));
-		cancer(rankArray.get(3));
-		leo(rankArray.get(4));
-		virgo(rankArray.get(5));
-		libra(rankArray.get(6));
-		scorpio(rankArray.get(7));
-		sagittarius(rankArray.get(8));
+		aries(ef.rankArray.get(0));
+		taurus(ef.rankArray.get(1));
+		gemini(ef.rankArray.get(2));
+		cancer(ef.rankArray.get(3));
+		leo(ef.rankArray.get(4));
+		virgo(ef.rankArray.get(5));
+		libra(ef.rankArray.get(6));
+		scorpio(ef.rankArray.get(7));
+		sagittarius(ef.rankArray.get(8));
 
 		System.out.println("～～～～～～良い一日を！～～～～～～");
 
