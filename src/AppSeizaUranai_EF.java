@@ -34,6 +34,7 @@ public class AppSeizaUranai_EF {
 		libra(ef.rankArray.get(6));
 		scorpio(ef.rankArray.get(7));
 		sagittarius(ef.rankArray.get(8));
+		capricorn(ef.rankArray.get(9));
 
 		System.out.println("～～～～～～良い一日を！～～～～～～");
 
@@ -65,5 +66,8 @@ public class AppSeizaUranai_EF {
 	}
 	public static void sagittarius(int rank){
 		//下平啓太さん
+	}
+	public static void capricorn(int rank){
+		//三浦皐一郎
 	}
 }
