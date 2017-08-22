@@ -132,7 +132,4 @@ public class AppSeizaUranai_EF {
 	public static void sagittarius(int rank){
 		//下平啓太さん
 	}
-	public static void capricorn(int rank){
-		//三浦皐一郎
-	}
 }
