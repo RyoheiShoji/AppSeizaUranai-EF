@@ -69,5 +69,47 @@ public class AppSeizaUranai_EF {
 	}
 	public static void capricorn(int rank){
 		//三浦皐一郎
+		System.out.println("ヤギ座の順位は ");
+
+		if(rank == 1) {
+			System.out.println(rank + "位です。");
+			System.out.println("今日も良い一日を");
+		}else if(rank == 2){
+			System.out.println(rank + "位です。");
+			System.out.println("まぁ、良い一日です");
+		}else if(rank == 3){
+			System.out.println(rank + "位です。");
+			System.out.println("そこそこですねぇ");
+		}else if(rank == 4){
+			System.out.println(rank + "位です。");
+			System.out.println("早く帰って寝よう");
+		}else if(rank == 5){
+			System.out.println(rank + "位です。");
+			System.out.println("微妙");
+		}else if(rank == 6){
+			System.out.println(rank + "位です。");
+			System.out.println("怪我に気を付けて");
+		}else if(rank == 7){
+			System.out.println(rank + "位です。");
+			System.out.println("スズメバチには気を付けよう");
+		}else if(rank == 8){
+			System.out.println(rank + "位です。");
+			System.out.println("住所特定に気を付けよう");
+		}else if(rank == 9){
+			System.out.println(rank + "位です。");
+			System.out.println("安全確認に徹しよう");
+		}else if(rank == 10){
+			System.out.println(rank + "位です。");
+			System.out.println("炎上にきをつけて");
+		}else if(rank == 11){
+			System.out.println(rank + "位です。");
+			System.out.println("外出は控えよう");
+		}else if(rank == 12){
+			System.out.println(rank + "位です。");
+			System.out.println("早く帰って寝よう");
+		}
+
+
+
 	}
 }
