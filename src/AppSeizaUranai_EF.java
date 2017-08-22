@@ -43,6 +43,21 @@ public class AppSeizaUranai_EF {
 	}
 	public static void aries(int rank){
 		//畠山 拓也さん
+		String fortune[] = {"", "１位！！！！！ 宝くじを買いましょう。",
+				"２位！！！！ なにか楽しいことが起こりそう。。",
+				"３位！！！ とてもいい日になりそう。",
+				"４位！！ 友人から何かもらえそう。",
+				"５位！ なにか良いことが起こりそう。",
+				"６位 いつもと変わらない日になりそう。",
+				"７位 少し嫌なことがありそう。",
+				"８位 辛いことが起こりそう。",
+				"９位 悲しいことが起こりそう。",
+				"１０位 外出の際は気を付けて。",
+				"１１位 夜道に気を付けて。",
+				"１２位 ｱｱｱｱｱｱｱｱｱｱｱｱ!!!!!"	};
+
+		System.out.println("おひつじ座のあなたは" + fortune[rank]);
+	}
 	}
 	public static void taurus(int rank){
 		//大戸 裕貴さん
@@ -216,22 +231,7 @@ public class AppSeizaUranai_EF {
 			break;
 		}
 	}
-	public static void leo(int rank){
-		String fortune[] = {"", "１位！！！！！ 宝くじを買いましょう。",
-				"２位！！！！ なにか楽しいことが起こりそう。。",
-				"３位！！！ とてもいい日になりそう。",
-				"４位！！ 友人から何かもらえそう。",
-				"５位！ なにか良いことが起こりそう。",
-				"６位 いつもと変わらない日になりそう。",
-				"７位 少し嫌なことがありそう。",
-				"８位 辛いことが起こりそう。",
-				"９位 悲しいことが起こりそう。",
-				"１０位 外出の際は気を付けて。",
-				"１１位 夜道に気を付けて。",
-				"１２位 ｱｱｱｱｱｱｱｱｱｱｱｱ!!!!!"	};
-
-		System.out.println("おひつじ座のあなたは" + fortune[rank]);
-	}
+	
 	public static void taurus(int rank){
 		//大戸 裕貴さん
 	switch(rank){
@@ -421,6 +421,44 @@ public class AppSeizaUranai_EF {
 	}
 	public static void scorpio(int rank){
 		//伊藤海星さん
+		public static void scorpio(int rank){
+		if(rank == 1) {
+			System.out.println(rank + "位です。");
+			System.out.println("ご機嫌");
+		}else if(rank == 2){
+			System.out.println(rank + "位です。");
+			System.out.println("良い一日です");
+		}else if(rank == 3){
+			System.out.println(rank + "位です。");
+			System.out.println("いつも通り");
+		}else if(rank == 4){
+			System.out.println(rank + "位です。");
+			System.out.println("早く帰ろう");
+		}else if(rank == 5){
+			System.out.println(rank + "位です。");
+			System.out.println("微妙");
+		}else if(rank == 6){
+			System.out.println(rank + "位です。");
+			System.out.println("怪我に気を付けて");
+		}else if(rank == 7){
+			System.out.println(rank + "位です。");
+			System.out.println("雷に気を付けよう");
+		}else if(rank == 8){
+			System.out.println(rank + "位です。");
+			System.out.println(に気を付けよう");
+		}else if(rank == 9){
+			System.out.println(rank + "位です。");
+			System.out.println("安全確認に徹しよう");
+		}else if(rank == 10){
+			System.out.println(rank + "位です。");
+			System.out.println("事故にきをつけて");
+		}else if(rank == 11){
+			System.out.println(rank + "位です。");
+			System.out.println("外出は控えよう");
+		}else if(rank == 12){
+			System.out.println(rank + "位です。");
+			System.out.println("何もしない");
+		}
 	}
 	public static void sagittarius(int rank){
 		//下平啓太さん
