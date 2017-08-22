@@ -25,6 +25,7 @@ public class AppSeizaUranai_EF {
 		AppSeizaUranai_EF ef = new AppSeizaUranai_EF();
 		System.out.println("～～～～～～今日の占い～～～～～～");
 
+
 		aries(ef.rankArray.get(0));
 		taurus(ef.rankArray.get(1));
 		gemini(ef.rankArray.get(2));
@@ -42,6 +43,17 @@ public class AppSeizaUranai_EF {
 	}
 	public static void aries(int rank){
 		//畠山 拓也さん
+	}
+	public static void taurus(int rank){
+		//大戸 裕貴さん
+	}
+	public static void gemini(int rank){
+		//番屋 翔さん
+	}
+	public static void cancer(int rank){
+		//庄司
+	}
+	public static void leo(int rank){
 		String fortune[] = {"", "１位！！！！！ 宝くじを買いましょう。",
 				"２位！！！！ なにか楽しいことが起こりそう。。",
 				"３位！！！ とてもいい日になりそう。",
@@ -296,15 +308,17 @@ public class AppSeizaUranai_EF {
 			System.out.println("怪我に気を付けて");
 		}else if(rank == 7){
 			System.out.println(rank + "位です。");
-			System.out.println("スズメバチには気を付けよう");
+			System.out.println("雷に気を付けよう");
 		}else if(rank == 8){
 			System.out.println(rank + "位です。");
 			System.out.println("住所特定に気を付けよう");
+
 		}else if(rank == 9){
 			System.out.println(rank + "位です。");
 			System.out.println("安全確認に徹しよう");
 		}else if(rank == 10){
 			System.out.println(rank + "位です。");
+			System.out.println("事故にきをつけて");
 			System.out.println("炎上にきをつけて");
 		}else if(rank == 11){
 			System.out.println(rank + "位です。");
@@ -314,4 +328,5 @@ public class AppSeizaUranai_EF {
 			System.out.println("早く帰って寝よう");
 		}
 	}
-}
+
+
