@@ -183,6 +183,44 @@ public class AppSeizaUranai_EF {
 
 	}
 	public static void leo(int rank){
+	switch(rank){
+	case 1:
+		System.out.println("今回の運勢は1位だと思います。\t\n多分星５が１％排出の某ソシャゲで星5が出るんじゃないかと思います。");
+		break;
+	case 2:
+		System.out.println("今回の運勢は2位だと思います。\t\n多分5vの個体値のポケモンが生まれるかと思います。");
+		break;
+	case 3:
+		System.out.println("今回の運勢は3位だと思います。\t\n多分ランクマで超越ができると思います。");
+		break;
+	case 4:
+		System.out.println("今回の運勢は4位だと思います。\t\n多分この町がゾンビだらけになっても生き残れると思います。");
+		break;
+	case 5:
+		System.out.println("今回の運勢は5位だと思います。\t\n多分次回予告が発生すると思います。");
+		break;
+	case 6:
+		System.out.println("今回の運勢は6位だと思います。\t\n多分某パズルゲームでダイヤの卵が排出されると思います。");
+		break;
+	case 7:
+		System.out.println("今回の運勢は7位だと思います。\t\n多分某0キロメートルでヒロインの変顔が観れると思います。");
+		break;
+	case 8:
+		System.out.println("今回の運勢は8位だと思います。\t\n多分幻のDT（佐藤大地）に会えると思います。");
+		break;
+	case 9:
+		System.out.println("今回の運勢は9位だと思います。\t\n多分twitterで殺害予告されると思います。");
+		break;
+	case 10:
+		System.out.println("今回の運勢は10位だと思います。\t\n多分黒塗りの車にぶつかると思います。");
+		break;
+	case 11:
+		System.out.println("今回の運勢は11位だと思います。\t\n多分ブルーベリー色の鬼に追いかけられると思います。");
+		break;
+	case 12:
+		System.out.println("今回の運勢は12位だと思います。\t\n多分死にます。");
+		break;
+}
 		//作山 静弥さん
 	}
 	public static void virgo(int rank){
