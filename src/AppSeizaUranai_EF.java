@@ -229,6 +229,57 @@ public class AppSeizaUranai_EF {
 	}
 	public static void virgo(int rank){
 		//上女鹿 歩さん
+		System.out.println("おとめ座の貴方は第 " + rank + " 位!!!";
+		switch(rank) {
+			case 1:
+				System.out.println("マンションを一棟買っちゃおう");
+				System.out.println("ラッキーアイテム : ペプシ・コーラ");
+				break;
+			case 2:
+				System.out.println("目標に少しだけ近づくかも...?");
+				System.out.println("ラッキーアイテム : コカ・コーラ");
+				break;
+			case 3:
+				System.out.println("５０円が道端に落ちてるかも！交番へ");
+				System.out.println("ラッキーアイテム : 鉢にさす緑のヤクルトみたいなやつ");
+				break;
+			case 4:
+				System.out.println("全身黄色コーデで金運アップ");
+				System.out.println("ラッキーアイテム : 冷やし中華大盛");
+				break;
+			case 5:
+				System.out.println("半日ラーメンを食べて歩こう");
+				System.out.println("ラッキーアイテム : 煮干しラーメン");
+				break;
+			case 6:
+				System.out.println("岡山県産白桃を食べると運気アップ...?");
+				System.out.println("ラッキーアイテム : 岡山県産白桃");
+				break;
+			case 7:
+				System.out.println("新しいことに挑戦してみよう");
+				System.out.println("ラッキーアイテム : ノートパソコン");
+				break;
+			case 8:
+				System.out.println("今日はアツゥイから水分補給を忘れずに");
+				System.out.println("ラッキーアイテム : 四川麻婆豆腐");
+				break;
+			case 9:
+				System.out.println("好きなことで食べていこう！多分うまくいくかも...");
+				System.out.println("ラッキーアイテム : LUMIX GH5");
+				break;
+			case 10:
+				System.out.println("今日は早めに寝よう");
+				System.out.println("ラッキーアイテム : おふとぅんともふもふ毛布");
+				break;
+			case 11:
+				System.out.println("今日明日は学校を休んだほうがいいかも");
+				System.out.println("ラッキーアイテム : だるま");
+				break;
+			case 12:
+				System.out.println("どうあがいても絶望");
+				System.out.println("ラッキーアイテム : ヌンチャク");
+				break;
+		}
 	}
 	public static void libra(int rank){
 		//伊勢勇人さん
