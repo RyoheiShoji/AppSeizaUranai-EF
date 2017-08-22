@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AppSeizaUranai_EF {
 	Random ra;
-	static ArrayList<Integer> rankArray;
+	ArrayList<Integer> rankArray;
 	Scanner sc;
 
 	public AppSeizaUranai_EF(){
@@ -13,7 +13,7 @@ public class AppSeizaUranai_EF {
 		rankArray = new ArrayList<Integer>();
 		sc = new Scanner(System.in);
 
-		for(int i = 0;i < 8;i++){
+		for(int i = 0;i < 9;i++){
 			int num = ra.nextInt(12) + 1;
 			while(rankArray.contains(num)){
 				num = ra.nextInt(12) + 1;
@@ -22,160 +22,52 @@ public class AppSeizaUranai_EF {
 		}
 	}
 	public static void main(String[] args){
+		AppSeizaUranai_EF ef = new AppSeizaUranai_EF();
+		System.out.println("ï½žï½žï½žï½žï½žï½žä»Šæ—¥ã®å ã„ï½žï½žï½žï½žï½žï½ž");
 
-		System.out.println("``````¡“ú‚Ìè‚¢``````");
+		aries(ef.rankArray.get(0));
+		taurus(ef.rankArray.get(1));
+		gemini(ef.rankArray.get(2));
+		cancer(ef.rankArray.get(3));
+		leo(ef.rankArray.get(4));
+		virgo(ef.rankArray.get(5));
+		libra(ef.rankArray.get(6));
+		scorpio(ef.rankArray.get(7));
+		sagittarius(ef.rankArray.get(8));
+		capricorn(ef.rankArray.get(9));
 
-		aries(rankArray.get(0));
-		taurus(rankArray.get(1));
-		gemini(rankArray.get(2));
-		cancer(rankArray.get(3));
-		leo(rankArray.get(4));
-		virgo(rankArray.get(5));
-		libra(rankArray.get(6));
-		scorpio(rankArray.get(7));
-
-		System.out.println("``````—Ç‚¢ˆê“ú‚ð!``````");
+		System.out.println("ï½žï½žï½žï½žï½žï½žè‰¯ã„ä¸€æ—¥ã‚’ï¼ï½žï½žï½žï½žï½žï½ž");
 
 
 	}
 	public static void aries(int rank){
-		//”©ŽR ‘ñ–ç‚³‚ñ
-		String fortune[] = {"", "‚PˆÊIIIII •ó‚­‚¶‚ð”ƒ‚¢‚Ü‚µ‚å‚¤B",
-								"‚QˆÊIIII ‚È‚É‚©Šy‚µ‚¢‚±‚Æ‚ª‹N‚±‚è‚»‚¤BB",
-								"‚RˆÊIII ‚Æ‚Ä‚à‚¢‚¢“ú‚É‚È‚è‚»‚¤B",
-								"‚SˆÊII —Fl‚©‚ç‰½‚©‚à‚ç‚¦‚»‚¤B",
-								"‚TˆÊI ‚È‚É‚©—Ç‚¢‚±‚Æ‚ª‹N‚±‚è‚»‚¤B",
-								"‚UˆÊ ‚¢‚Â‚à‚Æ•Ï‚í‚ç‚È‚¢“ú‚É‚È‚è‚»‚¤B",
-								"‚VˆÊ ­‚µŒ™‚È‚±‚Æ‚ª‚ ‚è‚»‚¤B",
-								"‚WˆÊ h‚¢‚±‚Æ‚ª‹N‚±‚è‚»‚¤B",
-								"‚XˆÊ ”ß‚µ‚¢‚±‚Æ‚ª‹N‚±‚è‚»‚¤B",
-								"‚P‚OˆÊ ŠOo‚ÌÛ‚Í‹C‚ð•t‚¯‚ÄB",
-								"‚P‚PˆÊ –é“¹‚É‹C‚ð•t‚¯‚ÄB",
-								"‚P‚QˆÊ ±±±±±±±±±±±±!!!!!"	};
-
-		System.out.println("‚¨‚Ð‚Â‚¶À‚Ì‚ ‚È‚½‚Í" + fortune);
+		//ç• å±± æ‹“ä¹Ÿã•ã‚“
 	}
 	public static void taurus(int rank){
-		//‘åŒË —T‹M‚³‚ñ
-		switch(rank){
-			case 1:
-				System.out.println("‡ˆÊF1ˆÊ");
-				System.out.println("l¶‚É‰e‹¿‚ð‹y‚Ú‚·l‚Æ‚Ìo‰ï‚¢‚ª");
-				break;
-			case 2:
-				System.out.println("‡ˆÊF2ˆÊ");
-				System.out.println("K‰^‚Ì—_‚ª”÷Î‚Þ‚·‚Ä‚«‚Èˆê“ú");
-				break;
-			case 3:
-				System.out.println("‡ˆÊF3ˆÊ");
-				System.out.println("ƒI[ƒvƒ“‚È‘Ô“x‚Å‰ß‚²‚·‚Ì‚ª‘åŽ–");
-				break;
-			case 4:
-				System.out.println("‡ˆÊF4ˆÊ");
-				System.out.println("•é‚ç‚µ‚Ì’†‚ÉV‚½‚È‚à‚Ì‚ðŽæ‚è“ü‚ê‚é‚Æ‹g");
-				break;
-			case 5:
-				System.out.println("‡ˆÊF5ˆÊ");
-				System.out.println("‹¹‚ª‚Æ‚«‚ß‚­ƒV[ƒ“‚É‘˜‹ö‚·‚é“ú");
-				break;
-			case 6:
-				System.out.println("‡ˆÊF6ˆÊ");
-				System.out.println("ƒCƒ[ƒWƒ`ƒFƒ“ƒW‚É“K‚µ‚Ä‚¢‚é“ú");
-				break;
-			case 7:
-				System.out.println("‡ˆÊF7ˆÊ");
-				System.out.println("‹¹‚ª‚Æ‚«‚ß‚­‚æ‚¤‚È‚à‚Ì‚ðŒ©‚Â‚¯‚ç‚ê‚»‚¤");
-				break;
-			case 8:
-				System.out.println("‡ˆÊF8ˆÊ");
-				System.out.println("ŽhŒƒ‚ð‹‚ß‚Ä–`Œ¯‚ð‚µ‚½‚­‚È‚è‚»‚¤");
-				break;
-			case 9:
-				System.out.println("‡ˆÊF9ˆÊ");
-				System.out.println("ŽhŒƒ‚â•Ï‰»‚ð‹‚ß‚é“ú");
-				break;
-			case 10:
-				System.out.println("‡ˆÊF10ˆÊ");
-				System.out.println("–³—‚È–ñ‘©‚ð‚µ‚È‚¢‚æ‚¤‚É’ˆÓ");
-				break;
-			case 11:
-				System.out.println("‡ˆÊF11ˆÊ");
-				System.out.println("Šy‚µ‚Ý‚ðŒ©‚Â‚¯‚ÄãŽè‚É‹C•ª“]Š·‚ð");
-				break;
-			case 12:
-				System.out.println("‡ˆÊF12ˆÊ");
-				System.out.println("ƒvƒ‰ƒXŽvl‚Å‚¢‚«‚Ü‚µ‚å‚¤");
-				break;
-		}
+		//å¤§æˆ¸ è£•è²´ã•ã‚“
 	}
 	public static void gemini(int rank){
-		//”Ô‰® ãÄ‚³‚ñ
+		//ç•ªå±‹ ç¿”ã•ã‚“
 	}
 	public static void cancer(int rank){
-		//¯Ži
+		//åº„å¸
 	}
 	public static void leo(int rank){
-		//ìŽR Ã–í‚³‚ñ
+		//ä½œå±± é™å¼¥ã•ã‚“
 	}
 	public static void virgo(int rank){
-		//ã—Ž­ •à‚³‚ñ
-		
-		System.out.println("‚¨‚Æ‚ßÀ‚Ì‹M•û‚Í‘æ " + rank + " ˆÊ!!!";
-		switch(rank) {
-			case 1:
-				System.out.println("ƒ}ƒ“ƒVƒ‡ƒ“‚ðˆê“”ƒ‚Á‚¿‚á‚¨‚¤");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ƒyƒvƒVEƒR[ƒ‰");
-				break;
-			case 2:
-				System.out.println("–Ú•W‚É­‚µ‚¾‚¯‹ß‚Ã‚­‚©‚à...?");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ƒRƒJEƒR[ƒ‰");
-				break;
-			case 3:
-				System.out.println("‚T‚O‰~‚ª“¹’[‚É—Ž‚¿‚Ä‚é‚©‚àIŒð”Ô‚Ö");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ”«‚É‚³‚·—Î‚Ìƒ„ƒNƒ‹ƒg‚Ý‚½‚¢‚È‚â‚Â");
-				break;
-			case 4:
-				System.out.println("‘Sg‰©FƒR[ƒf‚Å‹à‰^ƒAƒbƒv");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : —â‚â‚µ’†‰Ø‘å·");
-				break;
-			case 5:
-				System.out.println("”¼“úƒ‰[ƒƒ“‚ðH‚×‚Ä•à‚±‚¤");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ŽÏŠ±‚µƒ‰[ƒƒ“");
-				break;
-			case 6:
-				System.out.println("‰ªŽRŒ§ŽY”’“‚ðH‚×‚é‚Æ‰^‹CƒAƒbƒv...?");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ‰ªŽRŒ§ŽY”’“");
-				break;
-			case 7:
-				System.out.println("V‚µ‚¢‚±‚Æ‚É’§í‚µ‚Ä‚Ý‚æ‚¤");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ƒm[ƒgƒpƒ\ƒRƒ“");
-				break;
-			case 8:
-				System.out.println("¡“ú‚ÍƒAƒcƒDƒC‚©‚ç…•ª•â‹‹‚ð–Y‚ê‚¸‚É");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : Žlì–ƒ”k“¤•…");
-				break;
-			case 9:
-				System.out.println("D‚«‚È‚±‚Æ‚ÅH‚×‚Ä‚¢‚±‚¤I‘½•ª‚¤‚Ü‚­‚¢‚­‚©‚à...");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : LUMIX GH5");
-				break;
-			case 10:
-				System.out.println("¡“ú‚Í‘‚ß‚ÉQ‚æ‚¤");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ‚¨‚Ó‚Æ‚£‚ñ‚Æ‚à‚Ó‚à‚Ó–Ñ•z");
-				break;
-			case 11:
-				System.out.println("¡“ú–¾“ú‚ÍŠwZ‚ð‹x‚ñ‚¾‚Ù‚¤‚ª‚¢‚¢‚©‚à");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ‚¾‚é‚Ü");
-				break;
-			case 12:
-				System.out.println("‚Ç‚¤‚ ‚ª‚¢‚Ä‚àâ–]");
-				System.out.println("ƒ‰ƒbƒL[ƒAƒCƒeƒ€ : ƒkƒ“ƒ`ƒƒƒN");
-				break;
-		}
+		//ä¸Šå¥³é¹¿ æ­©ã•ã‚“
 	}
 	public static void libra(int rank){
-		//ˆÉ¨—El‚³‚ñ
+		//ä¼Šå‹¢å‹‡äººã•ã‚“
 	}
 	public static void scorpio(int rank){
-		//ˆÉ“¡ŠC¯‚³‚ñ
+		//ä¼Šè—¤æµ·æ˜Ÿã•ã‚“
+	}
+	public static void sagittarius(int rank){
+		//ä¸‹å¹³å•“å¤ªã•ã‚“
+	}
+	public static void capricorn(int rank){
+		//ä¸‰æµ¦çšä¸€éƒŽ
 	}
 }
