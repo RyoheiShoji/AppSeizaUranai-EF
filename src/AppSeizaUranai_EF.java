@@ -13,7 +13,7 @@ public class AppSeizaUranai_EF {
 		rankArray = new ArrayList<Integer>();
 		sc = new Scanner(System.in);
 
-		for(int i = 0;i < 9;i++){
+		for(int i = 0;i < 12;i++){
 			int num = ra.nextInt(12) + 1;
 			while(rankArray.contains(num)){
 				num = ra.nextInt(12) + 1;
@@ -57,7 +57,6 @@ public class AppSeizaUranai_EF {
 				"１２位 ｱｱｱｱｱｱｱｱｱｱｱｱ!!!!!"	};
 
 		System.out.println("おひつじ座のあなたは" + fortune[rank]);
-	}
 	}
 	public static void taurus(int rank){
 		//大戸 裕貴さん
@@ -162,7 +161,6 @@ public class AppSeizaUranai_EF {
 			System.out.println("白い便箋");
 		}
 	}
-	}
 	public static void cancer(int rank){
 		//庄司
 		switch(rank){
@@ -231,59 +229,6 @@ public class AppSeizaUranai_EF {
 			break;
 		}
 	}
-	
-	public static void taurus(int rank){
-		//大戸 裕貴さん
-	switch(rank){
-		case 1:
-			System.out.println("順位：1位");
-			System.out.println("人生に影響を及ぼす人との出会いが");
-			break;
-		case 2:
-			System.out.println("順位：2位");
-			System.out.println("幸運の女神が微笑むすてきな一日");
-			break;
-		case 3:
-			System.out.println("順位：3位");
-			System.out.println("オープンな態度で過ごすのが大事");
-			break;
-		case 4:
-			System.out.println("順位：4位");
-			System.out.println("暮らしの中に新たなものを取り入れると吉");
-			break;
-		case 5:
-			System.out.println("順位：5位");
-			System.out.println("胸がときめくシーンに遭遇する日");
-			break;
-		case 6:
-			System.out.println("順位：6位");
-			System.out.println("イメージチェンジに適している日");
-			break;
-		case 7:
-			System.out.println("順位：7位");
-			System.out.println("胸がときめくようなものを見つけられそう");
-			break;
-		case 8:
-			System.out.println("順位：8位");
-			System.out.println("刺激を求めて冒険をしたくなりそう");
-			break;
-		case 9:
-			System.out.println("順位：9位");
-			System.out.println("刺激や変化を求める日");
-			break;
-		case 10:
-			System.out.println("順位：10位");
-			System.out.println("無理な約束をしないように注意");
-			break;
-		case 11:
-			System.out.println("順位：11位");
-			System.out.println("楽しみを見つけて上手に気分転換を");
-			break;
-		case 12:
-			System.out.println("順位：12位");
-			System.out.println("今日は外出せず家でゴロゴロしていましょう");
-	}
-	}
 	public static void leo(int rank){
 	switch(rank){
 	case 1:
@@ -327,7 +272,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void virgo(int rank){
 		//上女鹿 歩さん
-		System.out.println("おとめ座の貴方は第 " + rank + " 位!!!";
+		System.out.println("おとめ座の貴方は第 " + rank + " 位!!!");
 		switch(rank) {
 			case 1:
 				System.out.println("マンションを一棟買っちゃおう");
@@ -419,8 +364,6 @@ public class AppSeizaUranai_EF {
 			System.out.println("何もしない日にしよう");
 		}
 	}
-	public static void scorpio(int rank){
-		//伊藤海星さん
 		public static void scorpio(int rank){
 		if(rank == 1) {
 			System.out.println(rank + "位です。");
@@ -445,7 +388,7 @@ public class AppSeizaUranai_EF {
 			System.out.println("雷に気を付けよう");
 		}else if(rank == 8){
 			System.out.println(rank + "位です。");
-			System.out.println(に気を付けよう");
+			System.out.println("に気を付けよう");
 		}else if(rank == 9){
 			System.out.println(rank + "位です。");
 			System.out.println("安全確認に徹しよう");
@@ -509,5 +452,5 @@ public class AppSeizaUranai_EF {
 			System.out.println("早く帰って寝よう");
 		}
 	}
-
+}
 
