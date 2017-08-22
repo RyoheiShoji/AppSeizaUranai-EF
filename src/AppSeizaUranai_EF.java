@@ -283,6 +283,8 @@ public class AppSeizaUranai_EF {
 	}
 	public static void sagittarius(int rank){
 		//下平啓太さん
+		System.out.println("いて座");
+		System.out.println("金運アップ、仕事もうまくいきそう！!");
 	}
 	public static void capricorn(int rank){
 		//三浦皐一郎
