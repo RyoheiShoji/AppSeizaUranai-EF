@@ -60,6 +60,43 @@ public class AppSeizaUranai_EF {
 	}
 	public static void libra(int rank){
 		//伊勢勇人さん
+		if(rank == 1) {
+			System.out.println(rank + "位です。");
+			System.out.println("ご機嫌用");
+		}else if(rank == 2){
+			System.out.println(rank + "位です。");
+			System.out.println("いい日ですね");
+		}else if(rank == 3){
+			System.out.println(rank + "位です。");
+			System.out.println("少しいい日です");
+		}else if(rank == 4){
+			System.out.println(rank + "位です。");
+			System.out.println("事故に気を付けて");
+		}else if(rank == 5){
+			System.out.println(rank + "位です。");
+			System.out.println("けがをするかも");
+		}else if(rank == 6){
+			System.out.println(rank + "位です。");
+			System.out.println("人混みは避けよう");
+		}else if(rank == 7){
+			System.out.println(rank + "位です。");
+			System.out.println("突然雨がふるかも");
+		}else if(rank == 8){
+			System.out.println(rank + "位です。");
+			System.out.println("友達には気を付けよう");
+		}else if(rank == 9){
+			System.out.println(rank + "位です。");
+			System.out.println("運転を避けよう");
+		}else if(rank == 10){
+			System.out.println(rank + "位です。");
+			System.out.println("上に気を付けて");
+		}else if(rank == 11){
+			System.out.println(rank + "位です。");
+			System.out.println("外出は控えよう");
+		}else if(rank == 12){
+			System.out.println(rank + "位です。");
+			System.out.println("何もしない日にしよう");
+		}
 	}
 	public static void scorpio(int rank){
 		//伊藤海星さん
