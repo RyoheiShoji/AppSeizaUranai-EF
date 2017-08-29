@@ -43,6 +43,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void aries(int rank){
 		//畠山 拓也さん
+		
 		String fortune[] = {"", "１位！！！！！ 宝くじを買いましょう。",
 				"２位！！！！ なにか楽しいことが起こりそう。。",
 				"３位！！！ とてもいい日になりそう。",
@@ -57,6 +58,7 @@ public class AppSeizaUranai_EF {
 				"１２位 ｱｱｱｱｱｱｱｱｱｱｱｱ!!!!!"	};
 
 		System.out.println("おひつじ座のあなたは" + fortune[rank]);
+		System.out.println("");
 	}
 	public static void taurus(int rank){
 		//大戸 裕貴さん
@@ -108,7 +110,8 @@ public class AppSeizaUranai_EF {
 		case 12:
 			System.out.println("順位：12位");
 			System.out.println("今日は外出せず家でゴロゴロしていましょう");
-	}
+		}
+		System.out.println("");
 	}
 	public static void gemini(int rank){
 		//番屋 翔さん
@@ -160,6 +163,7 @@ public class AppSeizaUranai_EF {
 			System.out.println("物事を決められずイライラ。迷ったときは時間をおいてみて！");
 			System.out.println("白い便箋");
 		}
+		System.out.println("");
 	}
 	public static void cancer(int rank){
 		//庄司
@@ -228,6 +232,7 @@ public class AppSeizaUranai_EF {
 			System.out.println("濃いめのコーヒーにスプーン1杯のハチミツを入れて飲みましょう。");
 			break;
 		}
+		System.out.println("");
 	}
 	public static void leo(int rank){
 	switch(rank){
@@ -267,7 +272,8 @@ public class AppSeizaUranai_EF {
 	case 12:
 		System.out.println("今回の運勢は12位だと思います。\t\n多分死にます。");
 		break;
-}
+	}
+		System.out.println("");
 		//作山 静弥さん
 	}
 	public static void virgo(int rank){
@@ -323,6 +329,7 @@ public class AppSeizaUranai_EF {
 				System.out.println("ラッキーアイテム : ヌンチャク");
 				break;
 		}
+		System.out.println("");
 	}
 	public static void libra(int rank){
 		//伊勢勇人さん
@@ -363,6 +370,7 @@ public class AppSeizaUranai_EF {
 			System.out.println(rank + "位です。");
 			System.out.println("何もしない日にしよう");
 		}
+		System.out.println("");
 	}
 		public static void scorpio(int rank){
 		if(rank == 1) {
@@ -402,11 +410,13 @@ public class AppSeizaUranai_EF {
 			System.out.println(rank + "位です。");
 			System.out.println("何もしない");
 		}
+			System.out.println("");
 	}
 	public static void sagittarius(int rank){
 		//下平啓太さん
 		System.out.println("いて座");
 		System.out.println("金運アップ、仕事もうまくいきそう！!");
+		System.out.println("");
 	}
 	public static void capricorn(int rank){
 		//三浦皐一郎
@@ -451,6 +461,7 @@ public class AppSeizaUranai_EF {
 			System.out.println(rank + "位です。");
 			System.out.println("早く帰って寝よう");
 		}
+		System.out.println("");
 	}
 }
 
