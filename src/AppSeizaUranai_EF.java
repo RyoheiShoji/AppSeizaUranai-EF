@@ -13,10 +13,10 @@ public class AppSeizaUranai_EF {
 		rankArray = new ArrayList<Integer>();
 		sc = new Scanner(System.in);
 
-		for(int i = 0;i < 12;i++){
-			int num = ra.nextInt(12) + 1;
+		for(int i = 0;i < 9;i++){
+			int num = ra.nextInt(9);
 			while(rankArray.contains(num)){
-				num = ra.nextInt(12) + 1;
+				num = ra.nextInt(9);
 			}
 			rankArray.add(num);
 		}
@@ -24,26 +24,54 @@ public class AppSeizaUranai_EF {
 	public static void main(String[] args){
 		AppSeizaUranai_EF ef = new AppSeizaUranai_EF();
 		System.out.println("～～～～～～今日の占い～～～～～～");
+		System.out.println("");
 
-
-		aries(ef.rankArray.get(0));
-		taurus(ef.rankArray.get(1));
-		gemini(ef.rankArray.get(2));
-		cancer(ef.rankArray.get(3));
-		leo(ef.rankArray.get(4));
-		virgo(ef.rankArray.get(5));
-		libra(ef.rankArray.get(6));
-		scorpio(ef.rankArray.get(7));
-		sagittarius(ef.rankArray.get(8));
-		capricorn(ef.rankArray.get(9));
+		for(int i = 0;i < 10;i++){
+			randomfortune(ef.rankArray.get(i),i);
+		}
 
 		System.out.println("～～～～～～良い一日を！～～～～～～");
 
 
 	}
+	public static void randomfortune(int arr,int cou){
+		switch(arr){
+			case 0:
+				aries(cou);
+				break;
+			case 1:
+				taurus(cou);
+				break;
+			case 2:
+				gemini(cou);
+				break;
+			case 3:
+				cancer(cou);
+				break;
+			case 4:
+				leo(cou);
+				break;
+			case 5:
+				virgo(cou);
+				break;
+			case 6:
+				libra(cou);
+				break;
+			case 7:
+				scorpio(cou);
+				break;
+			case 8:
+				sagittarius(cou);
+				break;
+			case 9:
+				capricorn(cou);
+				break;
+		}
+		
+	}
 	public static void aries(int rank){
 		//畠山 拓也さん
-		
+		System.out.println("おひつじ座の貴方は");
 		String fortune[] = {"", "１位！！！！！ 宝くじを買いましょう。",
 				"２位！！！！ なにか楽しいことが起こりそう。。",
 				"３位！！！ とてもいい日になりそう。",
@@ -62,6 +90,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void taurus(int rank){
 		//大戸 裕貴さん
+		System.out.println("おうし座の貴方は");
 		switch(rank){
 		case 1:
 			System.out.println("順位：1位");
@@ -115,6 +144,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void gemini(int rank){
 		//番屋 翔さん
+		System.out.println("ふたご座の貴方は第 " + rank + " 位!!!");
 		if(rank == 1){
 			System.out.println("恋のビッグチャンス到来でモテモテ。気になる人には積極的なアピールを");
 			System.out.println("ラッキーポイント"+ "インテリア雑貨ショップ");
@@ -167,6 +197,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void cancer(int rank){
 		//庄司
+		System.out.println("かに座の貴方は第 " + rank + " 位");
 		switch(rank){
 		case 1:
 			System.out.println("新たな夢や希望に向けて前進");
@@ -235,42 +266,43 @@ public class AppSeizaUranai_EF {
 		System.out.println("");
 	}
 	public static void leo(int rank){
+		System.out.print(" しし座の順位は");
 	switch(rank){
 	case 1:
-		System.out.println("今回の運勢は1位だと思います。\t\n多分星５が１％排出の某ソシャゲで星5が出るんじゃないかと思います。");
+		System.out.println("1位だと思います。\t\n多分星５が１％排出の某ソシャゲで星5が出るんじゃないかと思います。");
 		break;
 	case 2:
-		System.out.println("今回の運勢は2位だと思います。\t\n多分5vの個体値のポケモンが生まれるかと思います。");
+		System.out.println("2位だと思います。\t\n多分5vの個体値のポケモンが生まれるかと思います。");
 		break;
 	case 3:
-		System.out.println("今回の運勢は3位だと思います。\t\n多分ランクマで超越ができると思います。");
+		System.out.println("3位だと思います。\t\n多分ランクマで超越ができると思います。");
 		break;
 	case 4:
-		System.out.println("今回の運勢は4位だと思います。\t\n多分この町がゾンビだらけになっても生き残れると思います。");
+		System.out.println("4位だと思います。\t\n多分この町がゾンビだらけになっても生き残れると思います。");
 		break;
 	case 5:
-		System.out.println("今回の運勢は5位だと思います。\t\n多分次回予告が発生すると思います。");
+		System.out.println("5位だと思います。\t\n多分次回予告が発生すると思います。");
 		break;
 	case 6:
-		System.out.println("今回の運勢は6位だと思います。\t\n多分某パズルゲームでダイヤの卵が排出されると思います。");
+		System.out.println("6位だと思います。\t\n多分某パズルゲームでダイヤの卵が排出されると思います。");
 		break;
 	case 7:
-		System.out.println("今回の運勢は7位だと思います。\t\n多分某0キロメートルでヒロインの変顔が観れると思います。");
+		System.out.println("7位だと思います。\t\n多分某0キロメートルでヒロインの変顔が観れると思います。");
 		break;
 	case 8:
-		System.out.println("今回の運勢は8位だと思います。\t\n多分幻のDT（佐藤大地）に会えると思います。");
+		System.out.println("8位だと思います。\t\n多分幻のDT（佐藤大地）に会えると思います。");
 		break;
 	case 9:
-		System.out.println("今回の運勢は9位だと思います。\t\n多分twitterで殺害予告されると思います。");
+		System.out.println("9位だと思います。\t\n多分twitterで殺害予告されると思います。");
 		break;
 	case 10:
-		System.out.println("今回の運勢は10位だと思います。\t\n多分黒塗りの車にぶつかると思います。");
+		System.out.println("10位だと思います。\t\n多分黒塗りの車にぶつかると思います。");
 		break;
 	case 11:
-		System.out.println("今回の運勢は11位だと思います。\t\n多分ブルーベリー色の鬼に追いかけられると思います。");
+		System.out.println("11位だと思います。\t\n多分ブルーベリー色の鬼に追いかけられると思います。");
 		break;
 	case 12:
-		System.out.println("今回の運勢は12位だと思います。\t\n多分死にます。");
+		System.out.println("12位だと思います。\t\n多分死にます。");
 		break;
 	}
 		System.out.println("");
@@ -414,7 +446,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void sagittarius(int rank){
 		//下平啓太さん
-		System.out.println("いて座");
+		System.out.println("いて座の貴方は第 " + rank + " 位!!!");
 		System.out.println("金運アップ、仕事もうまくいきそう！!");
 		System.out.println("");
 	}
