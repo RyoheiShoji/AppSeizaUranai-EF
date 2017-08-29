@@ -13,10 +13,10 @@ public class AppSeizaUranai_EF {
 		rankArray = new ArrayList<Integer>();
 		sc = new Scanner(System.in);
 
-		for(int i = 0;i < 9;i++){
-			int num = ra.nextInt(9);
+		for(int i = 0;i <10;i++){
+			int num = ra.nextInt(10)+1;
 			while(rankArray.contains(num)){
-				num = ra.nextInt(9);
+				num = ra.nextInt(10)+1;
 			}
 			rankArray.add(num);
 		}
@@ -26,8 +26,8 @@ public class AppSeizaUranai_EF {
 		System.out.println("～～～～～～今日の占い～～～～～～");
 		System.out.println("");
 
-		for(int i = 0;i < 10;i++){
-			randomfortune(ef.rankArray.get(i),i);
+		for(int i = 0;i <10;i++){
+			randomfortune(ef.rankArray.get(i),i+1);
 		}
 
 		System.out.println("～～～～～～良い一日を！～～～～～～");
@@ -36,38 +36,38 @@ public class AppSeizaUranai_EF {
 	}
 	public static void randomfortune(int arr,int cou){
 		switch(arr){
-			case 0:
+			case 1:
 				aries(cou);
 				break;
-			case 1:
+			case 2:
 				taurus(cou);
 				break;
-			case 2:
+			case 3:
 				gemini(cou);
 				break;
-			case 3:
+			case 4:
 				cancer(cou);
 				break;
-			case 4:
+			case 5:
 				leo(cou);
 				break;
-			case 5:
+			case 6:
 				virgo(cou);
 				break;
-			case 6:
+			case 7:
 				libra(cou);
 				break;
-			case 7:
+			case 8:
 				scorpio(cou);
 				break;
-			case 8:
+			case 9:
 				sagittarius(cou);
 				break;
-			case 9:
+			case 10:
 				capricorn(cou);
 				break;
 		}
-		
+
 	}
 	public static void aries(int rank){
 		//畠山 拓也さん
@@ -365,6 +365,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void libra(int rank){
 		//伊勢勇人さん
+		System.out.print("てんびん座の貴方は");
 		if(rank == 1) {
 			System.out.println(rank + "位です。");
 			System.out.println("ご機嫌用");
@@ -405,6 +406,7 @@ public class AppSeizaUranai_EF {
 		System.out.println("");
 	}
 		public static void scorpio(int rank){
+			System.out.print("さそり座のあなたは");
 		if(rank == 1) {
 			System.out.println(rank + "位です。");
 			System.out.println("ご機嫌");
@@ -452,7 +454,7 @@ public class AppSeizaUranai_EF {
 	}
 	public static void capricorn(int rank){
 		//三浦皐一郎
-		System.out.println("ヤギ座の順位は ");
+		System.out.print("ヤギ座の順位は ");
 
 		if(rank == 1) {
 			System.out.println(rank + "位です。");
@@ -478,7 +480,6 @@ public class AppSeizaUranai_EF {
 		}else if(rank == 8){
 			System.out.println(rank + "位です。");
 			System.out.println("住所特定に気を付けよう");
-
 		}else if(rank == 9){
 			System.out.println(rank + "位です。");
 			System.out.println("安全確認に徹しよう");
